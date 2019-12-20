@@ -10,7 +10,7 @@
 <body>
     <nav id="printbtn" class="navbar navbar-light bg-light fixed-top" style="background-color: rgba(255,102, 0, 0.8)">
         <a class="navbar-brand d-flex align-items-center" href="{{ url('/dashboard') }}">
-          <div class="pr-3" style=" border-right: 1px solid #333; ">Changia</div>
+          <div class="pr-3" style=" border-right: 1px solid #333; ">Yatima</div>
       </a>
         <form class="form-inline" method="POST" action="/userreport">
           {{csrf_field()}}
