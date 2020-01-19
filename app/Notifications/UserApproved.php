@@ -43,7 +43,7 @@ class UserApproved extends Notification
     {
         return (new MailMessage)
                     ->line('Your Account has been approved.')
-                    ->line('NOTE: Inorder to receive the donation/funds from donors, you will require to create a paypal account with this email:&nbsp'  . $this->new_user->email)
+                    ->line('NOTE: Inorder to receive the donations from donors, you will require to create a paypal account with this email: '  . $this->new->email)
                     ->action('Please visit our site', route('login'))
                     ->line('Thank you for choosing Changia!');
     }

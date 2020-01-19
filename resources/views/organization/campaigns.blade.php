@@ -20,7 +20,7 @@
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
                     <div><img src="/svg/changia.svg" style="height: 20px; border-right: 1px solid #333;" class="pr-3"></div>
-                    <div class="pl-3">Changia</div>
+                    <div class="pl-3">Yatima</div>
                 </a>
                 <ul class="nav navbar-nav ml-auto">
                 </ul>

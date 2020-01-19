@@ -82,7 +82,7 @@ class RegisterController extends Controller
             'image' => '',
         ]);
         
-      Notification::send(User::where('admin', 1)->first(), new NewUser($user));
+      Notification::send(User::where('admin', 1)->get(), new NewUser($user));
       
       return $user;
     }

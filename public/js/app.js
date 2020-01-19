@@ -49506,8 +49506,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\users\owden\documents\donation_system\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\users\owden\documents\donation_system\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\users\owden\documents\yatima-donation-system\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\users\owden\documents\yatima-donation-system\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
